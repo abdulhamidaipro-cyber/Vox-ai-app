@@ -14,7 +14,7 @@ export function EmptyState() {
           <span className="text-3xl font-mono text-accent">AI</span>
         </div>
 
-        <h1 className="mb-3 text-2xl font-medium leading-snug text-fg text-balance">
+        <h1 className="mb-4 text-3xl font-medium leading-snug text-fg text-balance">
           حمّل الريلز.
           <br />
           فرّغ الصوت.
@@ -22,30 +22,30 @@ export function EmptyState() {
           <span className="text-fg-muted">تطوّر مع كل مرة.</span>
         </h1>
 
-        <p className="mb-10 text-sm leading-7 text-fg-muted text-balance">
+        <p className="mb-10 text-base leading-8 text-fg-muted text-balance">
           الصق رابط ريل من إنستقرام، أو اضغط زرّ المايك وتكلّم.
           التطبيق يفهم وش تبي ويسوي اللازم.
         </p>
 
         <div className="grid gap-3 text-start">
           <div className="rounded-lg border border-border bg-surface/40 px-4 py-3">
-            <div className="mb-1 flex items-center gap-2 text-xs text-fg-muted">
-              <Film size={12} strokeWidth={1.5} />
+            <div className="mb-1.5 flex items-center gap-2 text-sm text-fg-muted">
+              <Film size={14} strokeWidth={1.5} />
               <span>مثال</span>
             </div>
             <code
               dir="ltr"
-              className="font-mono text-xs text-fg-muted block truncate"
+              className="font-mono text-sm text-fg-muted block truncate"
             >
               https://www.instagram.com/reel/...
             </code>
           </div>
           <div className="rounded-lg border border-border bg-surface/40 px-4 py-3">
-            <div className="mb-1 flex items-center gap-2 text-xs text-fg-muted">
-              <AudioLines size={12} strokeWidth={1.5} />
+            <div className="mb-1.5 flex items-center gap-2 text-sm text-fg-muted">
+              <AudioLines size={14} strokeWidth={1.5} />
               <span>أو</span>
             </div>
-            <span className="text-xs text-fg-muted">
+            <span className="text-sm text-fg-muted">
               اضغط على المايك واتكلّم لتحويل صوتك إلى نص.
             </span>
           </div>
