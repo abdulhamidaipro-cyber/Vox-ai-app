@@ -18,8 +18,6 @@ export function EmptyState() {
           حمّل الريلز.
           <br />
           فرّغ الصوت.
-          <br />
-          <span className="text-fg-muted">تطوّر مع كل مرة.</span>
         </h1>
 
         <p className="mb-10 text-base leading-8 text-fg-muted text-balance">
